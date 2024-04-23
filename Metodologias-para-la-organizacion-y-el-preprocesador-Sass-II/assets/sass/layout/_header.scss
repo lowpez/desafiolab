@@ -1,0 +1,20 @@
+.header {
+    clear: both;
+    background-color: white;
+    padding: 20px 40px;
+    border-bottom: 1px solid #CCC;
+}
+
+.header img {
+    margin-right: 6px;
+    width: 48px;
+    display: block;
+    float: left;
+}
+
+.header h1 {
+    max-width: 86%;
+    margin: 8px auto;
+    font-size: 28px;
+    font-weight: 700;
+}
