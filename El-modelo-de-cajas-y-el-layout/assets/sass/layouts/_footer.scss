@@ -1,0 +1,25 @@
+.footer {
+  max-width: 86%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__description {
+  font-weight: 700;
+}
+
+.footer__logo{
+  width: 38px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.footer__title {
+  font-size: 28px;
+  font-weight: 700;
+ }
+
+.footer__copyrights{
+  color:#959595;
+}

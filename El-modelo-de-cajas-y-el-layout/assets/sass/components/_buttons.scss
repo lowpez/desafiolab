@@ -1,0 +1,17 @@
+.button {
+  padding: 8px;
+  font-size: 12px ;
+  letter-spacing: 2px;
+
+  &__btn--login{
+    background: transparent;
+    border:1px solid #000;
+
+  }
+
+  &__btn--register{
+    background: $shinny_shamrock;
+    border: 1px solid $shinny_shamrock;
+    color: $white;
+  }
+}
