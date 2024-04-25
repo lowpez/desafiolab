@@ -1,20 +1,64 @@
 .about{
-  height: 440px;
+  width: 86%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  justify-content: flex-start;
+  margin: 0rem auto;
+  padding: 0em;
 
-  &__photo{
-    width: 55%;
-    background: url(../images/img-1.png);
+  &__map{
+    position: relative;
+    margin-right: 140px;
+    padding-top: 1.7em;
+
+    &__gmap{
+      max-width: 122%;
+      box-shadow: 22px -27px $blue_de_france;
+      z-index: 22;
+      position: absolute;
+      
+    }
+
+    &__mani{
+      max-width: 28%;
+      height: 10em;
+      position: absolute;
+      object-fit: cover;
+      top:0;
+      left:-5em;
+      border-left: 2em solid $blue_de_france;
+      box-shadow: -42px 33px $blue_de_france;
+    }
+
+  }
+
+  &__title{
+    margin-top: 2em;
+    font-size: 1.7em;
+  }
+
+  &__xxx{
+    right:40px;
+    height: 18em;
+    margin-left: 4em;
+    background:#000 url(../images/img-2.png);
     position: relative;
 
-    .stats{
-      background: $bg_primary;
-      position: absolute;
-      bottom: 0;
-      right:0;
-      max-width: 40%;
-    } 
+
   }
+
+    article{
+      /*margin-left: 1.5rem;*/
+      width: 23.6%;
+         /* background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);*/
+
+
+      p {
+        font-size: 0.9rem;
+        width: 80%;
+      }
+    }
+
+
+  
 }

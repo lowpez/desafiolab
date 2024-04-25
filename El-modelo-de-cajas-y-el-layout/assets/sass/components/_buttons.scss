@@ -6,6 +6,11 @@
   &__btn--login{
     background: transparent;
     border:1px solid #000;
+    opacity: 0.3;
+
+    &:hover{
+      opacity: 1;
+    }
 
   }
 
@@ -13,5 +18,12 @@
     background: $shinny_shamrock;
     border: 1px solid $shinny_shamrock;
     color: $white;
+
+    &:hover{
+      background: $turquoise_green;
+      border: 1px solid $turquoise_green;
+      color:$outer_space;
+    }
+
   }
 }
