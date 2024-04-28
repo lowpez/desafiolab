@@ -1,0 +1,27 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+//https://getbootstrap.com/docs/5.3/customize/color/#all-colors
+
+$custom-colors: (
+  "blue":       $blue,
+  "indigo":     $indigo-500,
+  "purple":     $purple-500,
+  "pink":       $pink-500,
+  "red":        $red-500,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "gold":       $yellow-100,
+  "green":      $green,
+  "teal":       $teal-500,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'custom.scss';

@@ -1,0 +1,47 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.carousel-inner img{
+  max-height: 500px;
+  object-fit: fill;
+  object-position: 100%;
+}
+
+.card img{
+ 
+}
+
+.testimony{
+  text-align: center;
+   
+  &__text{
+    max-width: 60%;
+    margin: 1em auto;
+    font-style: italic;
+  }
+
+  &__photo{
+    margin: 0.5em auto;
+    width: 5em;
+    height: 5em;
+    border: 2px solid #FFF;
+  }
+  
+  &__by{
+    font-weight: 500;
+    font-style: normal;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-inner img{
+    height: 300px;
+    object-fit: cover;
+  }
+}
