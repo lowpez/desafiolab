@@ -54,4 +54,31 @@ function myFunction() {
   document.write(num1 % num2);
 }
 
-//myFunction();
+//Ingresar la temperatura en grados Celsius y transformar a grados Kelvin y Fahrenheit.
+
+function convertirTemperatura() {
+
+  let celsius = prompt("Ingrese la temperatura en grados Celsius:");
+
+  // Convertir la temperatura a números y validar la entrada del usuario
+  if (isNaN(celsius)) {
+      alert("Por favor, ingrese un número válido.");
+      return;
+  }
+
+  // Convertir la temperatura de Celsius a Kelvin y Fahrenheit segun equivalencia de las escalas de temperatura
+  let kelvin = parseFloat(celsius) + 273.15;
+  let fahrenheit = (parseFloat(celsius) * 9 / 5) + 32;
+
+  // Mostramos los resultados al usuario: test
+  /*alert("Temperatura en grados Celsius: " + celsius + " °C\n" +
+        "Temperatura en grados Kelvin: " + kelvin.toFixed(2) + " K\n" +
+        "Temperatura en grados Fahrenheit: " + fahrenheit.toFixed(2) + " °F");*/
+
+  document.write("Temperatura en grados Celsius: " + celsius + " °C\n");
+  document.write("<br>");
+  document.write("Temperatura en grados Kelvin: " + kelvin.toFixed(2) + " K\n");
+  document.write("<br>");
+  document.write("Temperatura en grados Fahrenheit: " + fahrenheit.toFixed(2) + " °F");
+
+}
