@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Centro Médico Ñuñoa</title>
-</head>
-<script>
 document.write('<p>Estadisticas centro medico ñuñoa</p>');
 
 var radiologia = [
@@ -36,12 +27,42 @@ var dental = [
     {hora: '14:00', especialista: 'RAQUEL VILLASECA',       paciente: 'ANA SEPULVEDA',  rut: '14441281-0', prevision: 'ISAPRE'},
 ];
 
-//Agregar código para el desafio 2 aquí
+//1. Agregar las siguientes horas al arreglo de Traumatología (2 Puntos)
+traumatologia.push(
+    {hora: '09:00', especialista: 'RENÉ POBLETE', paciente: 'ANA GELLONA', rut: '13123329-7', prevision: 'ISAPRE'},
+    {hora: '09:30', especialista: 'MARIA SOLAR', paciente: 'RAMIRO ANDRADE', rut: '12221451-K', prevision: 'FONASA'},
+    {hora: '10:00', especialista: 'RAUL LOYOLA', paciente: 'CARMEN ISLA', rut: '10112348-3', prevision: 'ISAPRE'},
+    {hora: '10:30', especialista: 'ANTONIO LARENAS', paciente: 'PABLO LOAYZA', rut: '13453234-1', prevision: 'ISAPRE'},
+    {hora: '12:00', especialista: 'MATIAS ARAVENA', paciente: 'SUSANA POBLETE', rut: '14345656-6', prevision: 'FONASA'}
+);
 
+//2. Eliminar el primer y último elemento del arreglo de Radiología (1 Punto)
+radiologia.shift();
+radiologia.pop();
 
+//3. Imprimir en la página HTML la lista de consultas médicas Dentales
+document.write('<h3>Consultas médicas de Dental:</h3>');
+dental.forEach(consulta => {
+    document.write(`<p>${consulta.hora} - ${consulta.especialista} - ${consulta.paciente} - ${consulta.rut} - ${consulta.prevision}</p>`);
+});
 
+//4. Imprimir un listado total de todos los pacientes que se atendieron en el centro médico.
+document.write('<h3>Listado total de pacientes:</h3>');
+[...radiologia, ...traumatologia, ...dental].forEach(consulta => {
+    document.write(`<p>${consulta.paciente}</p>`);
+});
 
-//Agregar código para el desafio 2 aquí
+//5. Filtrar aquellos pacientes que indican ser de ISAPRE en la lista de consultas médicas de Dental
+document.write('<h3>Pacientes con ISAPRE en Dental:</h3>');
+dental.filter(consulta => consulta.prevision === 'ISAPRE').forEach(consulta => {
+    document.write(`<p>${consulta.paciente} - ${consulta.prevision}</p>`);
+});
+
+// 6. Filtrar aquellos pacientes que indican ser de FONASA en la lista de consultas médicas de Traumatología
+document.write('<h3>Pacientes con FONASA en Traumatología:</h3>');
+traumatologia.filter(consulta => consulta.prevision === 'FONASA').forEach(consulta => {
+    document.write(`<p>${consulta.paciente} - ${consulta.prevision}</p>`);
+});
 
 document.write(`<p>Cantidad de atenciones para Radiología: ${radiologia.length}</p>`);
 document.write(`<p>Cantidad de atenciones para Traumatología: ${traumatologia.length}</p>`);
@@ -51,9 +72,3 @@ document.write(`<p>Cantidad de atenciones para Dental: ${dental.length}</p>`);
 document.write(`<p>Primera atencion: ${radiologia[0].paciente} - ${radiologia[0].prevision} | Última atención: ${radiologia[radiologia.length -1].paciente} - ${radiologia[radiologia.length -1].prevision}.</p>`);
 document.write(`<p>Primera atencion: ${traumatologia[0].paciente} - ${traumatologia[0].prevision} | Última atención: ${traumatologia[traumatologia.length -1].paciente} - ${traumatologia[traumatologia.length -1].prevision}.</p>`);
 document.write(`<p>Primera atencion: ${dental[0].paciente} - ${dental[0].prevision} | Última atención: ${dental[dental.length -1].paciente} - ${dental[dental.length -1].prevision}.</p>`);
-
-</script>
-<body>
-    
-</body>
-</html>
