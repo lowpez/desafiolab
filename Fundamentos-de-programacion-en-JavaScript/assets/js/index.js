@@ -3,7 +3,7 @@ $(document).ready(function() {
       const heroId = $('#heroId').val().trim();
 
       if (!/^\d+$/.test(heroId)) {
-          alert('Por favor, ingrese un número válido.');
+          $('#message').html('<div class="alert alert-danger">Por favor, ingrese un número válido.</div>');
           return;
       }
 
@@ -12,15 +12,15 @@ $(document).ready(function() {
           method: 'GET',
           success: function(data) {
               if (data.response === 'error') {
-                  alert('Superhéroe no encontrado. Por favor, ingrese un ID válido.');
+                  $('#message').html('<div class="alert alert-danger">SuperHero no encontrado. Por favor, ingrese un ID válido.</div>');
                   return;
               }
               
+              $('#message').html('<div class="alert alert-success">SuperHero encontrado.</div>');
               renderHeroInfo(data);
-              $('#successMessage').show();
           },
           error: function() {
-              alert('Error al consultar la API. Intente nuevamente más tarde.');
+              $('#message').html('<div class="alert alert-danger">Error al consultar la API. Intente nuevamente más tarde.</div>');
           }
       });
   });
