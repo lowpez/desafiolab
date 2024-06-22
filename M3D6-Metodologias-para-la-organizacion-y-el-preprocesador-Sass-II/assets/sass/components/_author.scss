@@ -1,0 +1,22 @@
+.author {
+    width: 100%;
+    padding: 40px 0px;
+
+    &__imagen {
+        width: 32px;
+        display: block;
+        float: left;
+        margin-right: 8px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-weight: 600;
+        float: left;
+    }
+
+    &__date {
+        margin-left: 40px;
+        float: left;
+    }
+}

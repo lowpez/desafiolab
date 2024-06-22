@@ -1,0 +1,18 @@
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 2px solid #F0F0F0;
+}
+
+.button.ok {
+    background-color: $primary-color;
+    color: white;
+}
+
+.button.google {
+    background-color: #FFF;
+    color: black;
+}
