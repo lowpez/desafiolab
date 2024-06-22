@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+  }
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #FFF;
+  color: #373A3C;
+   
+}
+
+hr{ 
+ 
+  height:1px;
+  background:#000;
+}
+
+.navbar-brand{
+  font-size: 37pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  background: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 40rem;
+
+}
+.card-text{
+  color:#707070;
+}
+
+.bg-cool-green{
+  background-color: #28A745;
+}
+
+.o-price{
+  color: #28A745;
+}
