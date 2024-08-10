@@ -1,0 +1,9 @@
+{
+    "registerUser": {
+      "name": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "password": "secreta123",
+      "phone": "+1234567890"
+    }
+  }
+  

@@ -1,0 +1,61 @@
+{
+  "home": {
+    "generalInfo": {
+      "name": "Tienda de Mascotas Felices",
+      "description": "En Tienda de Mascotas Felices, ofrecemos una amplia variedad de productos y servicios para satisfacer todas las necesidades de tus mascotas. Nos enorgullece ser tu destino de confianza para alimentos, accesorios y servicios veterinarios.",
+      "mission": "Brindar un servicio de atención al cliente excepcional, asesoramiento experto y productos de alta calidad para mejorar el bienestar de tus mascotas."
+    },
+    "providers": [
+      {
+        "name": "Proveedor PetFood",
+        "contactInfo": {
+          "phone": "123-456-7890",
+          "email": "contacto@petfood.com"
+        }
+      },
+      {
+        "name": "Proveedor PetToys",
+        "contactInfo": {
+          "phone": "098-765-4321",
+          "email": "contacto@pettoys.com"
+        }
+      }
+    ],
+    "laboratories": [
+        {
+          "name": "Laboratorio Perrito Feliz",
+          "services": [
+            "Análisis de sangre",
+            "Pruebas de glucosa",
+            "Perfil lipídico"
+          ],
+          "contactInfo": {
+            "phone": "234-567-8901",
+            "email": "contacto@perritofeliz.com"
+          }
+        },
+        {
+          "name": "Laboratorio Gato Maullador",
+          "services": [
+            "Examen de tiroides",
+            "Pruebas de función hepática",
+            "Exámenes de rutina"
+          ],
+          "contactInfo": {
+            "phone": "321-654-0987",
+            "email": "contacto@gatomaullador.com"
+          }
+        }
+      ],
+    "contactInfo": {
+      "address": "Calle Mascotas, 123, Ciudad, País",
+      "phone": "111-222-3333",
+      "email": "info@tiendademascotasfelices.com",
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/tiendademascotasfelices",
+        "twitter": "https://www.twitter.com/tiendademascotasfelices",
+        "instagram": "https://www.instagram.com/tiendademascotasfelices"
+      }
+    }
+  }
+}

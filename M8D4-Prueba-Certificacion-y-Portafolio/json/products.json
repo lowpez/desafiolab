@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Comida para Perros - Sabor Pollo",
+      "category": "Comida para Perros",
+      "description": "Comida premium para perros con sabor a pollo, rica en proteínas.",
+      "price": 25.00,
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "name": "Juguete para Gatos - Ratón",
+      "category": "Juguetes para Gatos",
+      "description": "Juguete para gatos con forma de ratón, ideal para mantener a tu gato activo y entretenido.",
+      "price": 8.00,
+      "stock": 150
+    },
+    {
+      "id": 3,
+      "name": "Cama para Perros - Talla Grande",
+      "category": "Camas para Mascotas",
+      "description": "Cama cómoda y espaciosa para perros de talla grande, con funda desmontable y lavable.",
+      "price": 45.00,
+      "stock": 80
+    },
+    {
+      "id": 4,
+      "name": "Arena para Gatos - 10kg",
+      "category": "Accesorios para Gatos",
+      "description": "Arena para gatos con control de olores, 10kg.",
+      "price": 12.00,
+      "stock": 120
+    },
+    {
+      "id": 5,
+      "name": "Collar para Perros - Reflectivo",
+      "category": "Accesorios para Perros",
+      "description": "Collar reflectivo para perros, ideal para paseos nocturnos.",
+      "price": 15.00,
+      "stock": 90
+    },
+    {
+      "id": 6,
+      "name": "Transportadora para Gatos",
+      "category": "Accesorios para Gatos",
+      "description": "Transportadora cómoda y segura para gatos, con ventilación y fácil acceso.",
+      "price": 35.00,
+      "stock": 70
+    },
+    {
+      "id": 7,
+      "name": "Cepillo para Perros - Antialérgico",
+      "category": "Cuidado Personal",
+      "description": "Cepillo para perros con cerdas suaves, ideal para mascotas con piel sensible.",
+      "price": 10.00,
+      "stock": 100
+    },
+    {
+      "id": 8,
+      "name": "Rascador para Gatos",
+      "category": "Accesorios para Gatos",
+      "description": "Rascador para gatos, perfecto para mantener sus uñas saludables y evitar que dañen los muebles.",
+      "price": 20.00,
+      "stock": 60
+    },
+    {
+      "id": 9,
+      "name": "Comida para Gatos - Sabor Pescado",
+      "category": "Comida para Gatos",
+      "description": "Comida premium para gatos con sabor a pescado, rica en nutrientes esenciales.",
+      "price": 22.00,
+      "stock": 110
+    },
+    {
+      "id": 10,
+      "name": "Snacks para Perros - Sabor Carne",
+      "category": "Comida para Perros",
+      "description": "Deliciosos snacks para perros con sabor a carne, perfectos como premio o golosina.",
+      "price": 5.00,
+      "stock": 200
+    },
+    {
+      "id": 11,
+      "name": "Juguete para Perros - Pelota",
+      "category": "Juguetes para Perros",
+      "description": "Pelota resistente para perros, ideal para juegos de búsqueda y captura.",
+      "price": 7.00,
+      "stock": 140
+    },
+    {
+      "id": 12,
+      "name": "Cortauñas para Gatos",
+      "category": "Accesorios para Gatos",
+      "description": "Cortauñas seguro y fácil de usar para gatos, ayuda a mantener las uñas a una longitud adecuada.",
+      "price": 12.00,
+      "stock": 80
+    },
+    {
+      "id": 13,
+      "name": "Arnés para Perros - Talla Mediana",
+      "category": "Accesorios para Perros",
+      "description": "Arnés cómodo y ajustable para perros de talla mediana, ideal para paseos seguros.",
+      "price": 18.00,
+      "stock": 90
+    },
+    {
+      "id": 14,
+      "name": "Jaula para Pájaros - Talla Grande",
+      "category": "Accesorios para Pájaros",
+      "description": "Jaula espaciosa y segura para pájaros de talla grande, con múltiples perchas y juguetes.",
+      "price": 60.00,
+      "stock": 30
+    },
+    {
+      "id": 15,
+      "name": "Vitamina Suplemento para Perros",
+      "category": "Suplementos para Mascotas",
+      "description": "Suplemento vitamínico para perros, promueve una piel y pelaje saludables.",
+      "price": 25.00,
+      "stock": 100
+    },
+    {
+      "id": 16,
+      "name": "Filtro para Acuarios",
+      "category": "Accesorios para Peces",
+      "description": "Filtro eficiente para acuarios, mantiene el agua limpia y saludable para los peces.",
+      "price": 35.00,
+      "stock": 50
+    },
+    {
+      "id": 17,
+      "name": "Comedero Automático para Gatos",
+      "category": "Accesorios para Gatos",
+      "description": "Comedero automático para gatos, programa las comidas de tu mascota fácilmente.",
+      "price": 45.00,
+      "stock": 40
+    },
+    {
+      "id": 18,
+      "name": "Ropa para Perros - Suéter",
+      "category": "Ropa para Mascotas",
+      "description": "Suéter cómodo y elegante para perros, disponible en varias tallas.",
+      "price": 20.00,
+      "stock": 60
+    },
+    {
+      "id": 19,
+      "name": "Arena Sanitaria para Gatos",
+      "category": "Accesorios para Gatos",
+      "description": "Arena sanitaria para gatos, absorbe los olores y facilita la limpieza.",
+      "price": 10.00,
+      "stock": 110
+    },
+    {
+      "id": 20,
+      "name": "Transportadora para Perros - Talla Pequeña",
+      "category": "Accesorios para Perros",
+      "description": "Transportadora cómoda y segura para perros de talla pequeña, ideal para viajes.",
+      "price": 40.00,
+      "stock": 70
+    }
+  ]
+}

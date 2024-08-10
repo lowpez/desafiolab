@@ -1,0 +1,8 @@
+{
+    "registerProviderRequest": {
+      "name": "Proveedor de Salud S.A.",
+      "contactPerson": "María López",
+      "email": "maria.lopez@proveedordesalud.com",
+      "phone": "987-654-3210"
+    }
+  }
